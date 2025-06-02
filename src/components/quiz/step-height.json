@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_quiz_step_heights",
+  "info": {
+    "displayName": "stepHeight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": false
+    },
+    "helper": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

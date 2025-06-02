@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_quiz_step_sliders",
+  "info": {
+    "displayName": "stepSlider"
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step"
+    },
+    "intervals": {
+      "displayName": "sliderInterval",
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.slider-interval",
+      "required": true,
+      "min": 1
+    }
+  }
+}

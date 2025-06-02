@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_popup_buttons",
+  "info": {
+    "displayName": "button"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

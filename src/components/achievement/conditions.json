@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_achievement_conditions",
+  "info": {
+    "displayName": "conditions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "classCompletionCount": {
+      "min": 1,
+      "type": "integer"
+    },
+    "classType": {
+      "type": "enumeration",
+      "enum": [
+        "CARDIO",
+        "FITNESS",
+        "PILATES",
+        "MEDITATION",
+        "STRETCHING",
+        "STRENGTH_TRAINING",
+        "YOGA",
+        "ALL"
+      ]
+    },
+    "classDifficulty": {
+      "type": "enumeration",
+      "enum": [
+        "ENTRY",
+        "BEGINNER",
+        "INTERMEDIATE",
+        "ADVANCED",
+        "ALL"
+      ]
+    },
+    "classDuration": {
+      "displayName": "Duration",
+      "type": "component",
+      "repeatable": false,
+      "component": "achievement.duration"
+    },
+    "streakRequirement": {
+      "displayName": "Streak Requirements",
+      "type": "component",
+      "repeatable": false,
+      "component": "achievement.streak-requirements"
+    },
+    "timeframeInDays": {
+      "type": "integer",
+      "min": 1
+    },
+    "classGoal": {
+      "type": "enumeration",
+      "enum": [
+        "FLEXIBILITY",
+        "STRENGTH",
+        "ENDURANCE",
+        "MINDFULNESS",
+        "WEIGHT_LOSS",
+        "ALL"
+      ]
+    }
+  }
+}

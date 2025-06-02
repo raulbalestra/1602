@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "classes",
+  "info": {
+    "singularName": "class",
+    "pluralName": "classes",
+    "displayName": "Class",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "imageSource": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "roundedLengthInMinutes": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "videoSource": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ]
+    },
+    "program": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::program.program",
+      "inversedBy": "classes"
+    },
+    "actualLengthInSeconds": {
+      "type": "integer",
+      "required": true
+    },
+    "reference": {
+      "type": "string",
+      "unique": true,
+      "maxLength": 10,
+      "minLength": 8,
+      "required": true
+    },
+    "videoSection": {
+      "displayName": "Video Section",
+      "type": "component",
+      "repeatable": true,
+      "component": "class.video-section"
+    }
+  }
+}

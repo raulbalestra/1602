@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_quiz_social_media_testimonials",
+  "info": {
+    "displayName": "socialMediaTestimonial"
+  },
+  "options": {},
+  "attributes": {
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "beforeAfter": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "author": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram",
+        "trustpilot"
+      ],
+      "required": true
+    }
+  }
+}

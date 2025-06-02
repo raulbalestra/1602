@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_navigation_navigation_items",
+  "info": {
+    "displayName": "NavigationLinks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "whatsIncluded": {
+      "type": "string",
+      "required": true
+    },
+    "reviews": {
+      "type": "string",
+      "required": true
+    },
+    "blog": {
+      "type": "string",
+      "required": true
+    },
+    "login": {
+      "type": "string",
+      "required": true
+    },
+    "signup": {
+      "type": "string",
+      "required": true
+    },
+    "memberAreaHome": {
+      "type": "string",
+      "required": true
+    },
+    "memberAreaSettings": {
+      "type": "string",
+      "required": true
+    },
+    "workoutPrograms": {
+      "type": "string",
+      "required": true
+    },
+    "memberAreaBlog": {
+      "type": "string",
+      "required": true
+    },
+    "logout": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

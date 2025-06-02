@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_quiz_slider_intervals",
+  "info": {
+    "displayName": "sliderPoint",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "point": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

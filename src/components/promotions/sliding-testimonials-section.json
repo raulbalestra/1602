@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_promotions_sliding_testimonials_sections",
+  "info": {
+    "displayName": "SlidingTestimonialsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "slidingTestimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promotions.sliding-testimonial",
+      "required": true
+    }
+  }
+}

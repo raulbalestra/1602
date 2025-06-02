@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_promotions_image_carousel_sections",
+  "info": {
+    "displayName": "ImageCarouselSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

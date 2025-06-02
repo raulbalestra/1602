@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_promotions_potential_savings_sections",
+  "info": {
+    "displayName": "PotentialSavingsSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "totalValueText": {
+      "type": "string",
+      "required": true
+    },
+    "monthlyPriceText": {
+      "type": "string",
+      "required": true
+    },
+    "monthlyPriceValue": {
+      "type": "string",
+      "required": true
+    },
+    "savings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promotions.saving",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

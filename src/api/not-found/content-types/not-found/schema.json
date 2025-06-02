@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "not_founds",
+  "info": {
+    "singularName": "not-found",
+    "pluralName": "not-founds",
+    "displayName": "Not Found"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sorry": {
+      "type": "string",
+      "required": true
+    },
+    "couldNotFind": {
+      "type": "string",
+      "required": true
+    },
+    "backToHome": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

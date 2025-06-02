@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_quiz_step_dates",
+  "info": {
+    "displayName": "stepDate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": true
+    },
+    "skipStep": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

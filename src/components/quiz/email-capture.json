@@ -1,0 +1,110 @@
+{
+  "collectionName": "components_quiz_email_captures",
+  "info": {
+    "displayName": "emailCapture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ratedTextEnd": {
+      "type": "string",
+      "required": true
+    },
+    "ratedTextStart": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "decimal",
+      "required": true
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitleStart": {
+      "type": "string",
+      "required": true
+    },
+    "defaultLoss": {
+      "type": "decimal",
+      "required": true
+    },
+    "subtitleEnd": {
+      "type": "string",
+      "required": true
+    },
+    "emailInputPlaceholder": {
+      "type": "string",
+      "required": true
+    },
+    "emailInputSubmitButtonTitle": {
+      "type": "string",
+      "required": true
+    },
+    "informationSecure": {
+      "type": "text",
+      "required": true
+    },
+    "privacyPolicy": {
+      "type": "text",
+      "required": true
+    },
+    "validationEmailAlt": {
+      "type": "string",
+      "required": true
+    },
+    "validationEmailIncorrect": {
+      "type": "string",
+      "required": true
+    },
+    "phoneTitle": {
+      "type": "string",
+      "required": false,
+      "default": "Last Step! Sign up for SMS"
+    },
+    "phoneImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "phoneInputPlaceholder": {
+      "type": "string",
+      "required": false,
+      "default": "Phone Number"
+    },
+    "phoneInputSubmitButtonTitle": {
+      "type": "string",
+      "required": false,
+      "default": "Continue"
+    },
+    "phoneInputSkipButtonTitle": {
+      "type": "string",
+      "required": false,
+      "default": "I prefer not to say"
+    },
+    "validationPhoneRequired": {
+      "type": "string",
+      "required": false,
+      "default": "Phone number is required"
+    },
+    "validationPhoneIncorrect": {
+      "type": "string",
+      "required": false,
+      "default": "Phone number is invalid"
+    },
+    "ratedText": {
+      "type": "string",
+      "required": true,
+      "default": "Excellent"
+    },
+    "useSmsCapture": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

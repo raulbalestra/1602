@@ -1,0 +1,141 @@
+{
+  "collectionName": "components_quiz_shared_pitches",
+  "info": {
+    "displayName": "sharedPitch"
+  },
+  "options": {},
+  "attributes": {
+    "bodyTypeTitle": {
+      "type": "string",
+      "required": true
+    },
+    "bodyTypeEctomorph": {
+      "type": "string",
+      "required": true
+    },
+    "bodyTypeMesomorph": {
+      "type": "string",
+      "required": true
+    },
+    "bodyTypeEndomorph": {
+      "type": "string",
+      "required": true
+    },
+    "lifestyleTitle": {
+      "type": "string",
+      "required": true
+    },
+    "lifestyleActive": {
+      "type": "string",
+      "required": true
+    },
+    "lifestyleBalanced": {
+      "type": "string",
+      "required": true
+    },
+    "lifestyleSedentary": {
+      "type": "string",
+      "required": true
+    },
+    "fitnessLevelTitle": {
+      "type": "string",
+      "required": true
+    },
+    "fitnessLevelBeginner": {
+      "type": "string",
+      "required": true
+    },
+    "fitnessLevelIntermediate": {
+      "type": "string",
+      "required": true
+    },
+    "fitnessLevelAdvanced": {
+      "type": "string",
+      "required": true
+    },
+    "bodyFatTitle": {
+      "type": "string",
+      "required": true
+    },
+    "bodyFatLow": {
+      "type": "string",
+      "required": true
+    },
+    "bodyFatNormal": {
+      "type": "string",
+      "required": true
+    },
+    "bodyFatHigh": {
+      "type": "string",
+      "required": true
+    },
+    "bodyFatDangerous": {
+      "type": "string",
+      "required": true
+    },
+    "muscleDensityTitle": {
+      "type": "string",
+      "required": true
+    },
+    "muscleDensityLow": {
+      "type": "string",
+      "required": true
+    },
+    "muscleDensityMedium": {
+      "type": "string",
+      "required": true
+    },
+    "muscleDensityHigh": {
+      "type": "string",
+      "required": true
+    },
+    "productExperienceTitle": {
+      "type": "string",
+      "required": true
+    },
+    "productExperienceBeginner": {
+      "type": "string",
+      "required": true
+    },
+    "productExperienceIntermediate": {
+      "type": "string",
+      "required": true
+    },
+    "productExperienceAdvanced": {
+      "type": "string",
+      "required": true
+    },
+    "hormonalBalanceTitle": {
+      "type": "string",
+      "required": true
+    },
+    "hormonalBalancePoor": {
+      "type": "string",
+      "required": true
+    },
+    "hormonalBalanceIntermediate": {
+      "type": "string",
+      "required": true
+    },
+    "hormonalBalanceGood": {
+      "type": "string",
+      "required": true
+    },
+    "metabolismTitle": {
+      "type": "string",
+      "required": true
+    },
+    "metabolismSlow": {
+      "type": "string",
+      "required": true
+    },
+    "metabolismNormal": {
+      "type": "string",
+      "required": true
+    },
+    "metabolismFast": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

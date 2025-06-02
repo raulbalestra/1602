@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_promotions_product_comparison_sections",
+  "info": {
+    "displayName": "ProductComparisonSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

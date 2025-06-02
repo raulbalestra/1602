@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "cancellation_pages",
+  "info": {
+    "singularName": "cancellation-page",
+    "pluralName": "cancellation-pages",
+    "displayName": "Cancellation Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

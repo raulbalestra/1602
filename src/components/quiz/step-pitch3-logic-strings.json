@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_quiz_step_pitch3_logic_strings",
+  "info": {
+    "displayName": "stepPitch3LogicStrings"
+  },
+  "options": {},
+  "attributes": {
+    "bmiString1": {
+      "type": "text",
+      "required": true
+    },
+    "bmiString2": {
+      "type": "text",
+      "required": true
+    },
+    "bmiString3": {
+      "type": "text",
+      "required": true
+    },
+    "bmiString4": {
+      "type": "text",
+      "required": true
+    },
+    "physicalBuildTitle": {
+      "type": "string",
+      "required": true
+    },
+    "typicalDayTitle": {
+      "type": "string",
+      "required": true
+    },
+    "walkingStairsTitle": {
+      "type": "string",
+      "required": true
+    },
+    "expFitnessTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

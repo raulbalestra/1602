@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_promotions_promotion_banners",
+  "info": {
+    "displayName": "PromotionBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "duration": {
+      "type": "integer",
+      "required": true
+    },
+    "buttonTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

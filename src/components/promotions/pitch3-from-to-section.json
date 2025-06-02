@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_promotions_pitch3_from_to_sections",
+  "info": {
+    "displayName": "Pitch3FromToSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "now": {
+      "type": "string",
+      "required": true
+    },
+    "yourGoal": {
+      "type": "string",
+      "required": true
+    },
+    "phrases": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.shared-pitch",
+      "required": true
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "bodyImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promotions.body-images",
+      "required": true
+    },
+    "bmiString1": {
+      "type": "string",
+      "required": true
+    },
+    "bmiString2": {
+      "type": "string",
+      "required": true
+    },
+    "bmiString3": {
+      "type": "string",
+      "required": true
+    },
+    "bmiString4": {
+      "type": "string",
+      "required": true
+    },
+    "beforeSubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "afterSubtitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

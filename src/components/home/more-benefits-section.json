@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_more_benefits_sections",
+  "info": {
+    "displayName": "MoreBenefitsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "smallBenefits": {
+      "displayName": "SmallBenefits",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.small-benefits"
+    }
+  }
+}

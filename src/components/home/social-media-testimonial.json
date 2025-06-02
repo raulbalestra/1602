@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_home_social_media_testimonials",
+  "info": {
+    "displayName": "SocialMediaTestimonial",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "authorName": {
+      "type": "string"
+    },
+    "mediaSource": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "withRating": {
+      "type": "boolean"
+    },
+    "authorImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

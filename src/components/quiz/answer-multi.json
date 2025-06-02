@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_quiz_answer_multis",
+  "info": {
+    "displayName": "AnswerMulti",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "emoji": {
+      "type": "string"
+    },
+    "isAtomic": {
+      "type": "boolean"
+    },
+    "value": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subtext": {
+      "type": "string"
+    }
+  }
+}

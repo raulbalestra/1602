@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_promotions_freebies",
+  "info": {
+    "displayName": "freebie"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "free": {
+      "type": "string",
+      "required": true
+    },
+    "included": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

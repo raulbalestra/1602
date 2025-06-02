@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_program_movement_patterns",
+  "info": {
+    "displayName": "Movement Pattern",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "movementPattern": {
+      "type": "enumeration",
+      "enum": [
+        "FULL_BODY",
+        "LOWER_BODY"
+      ]
+    }
+  }
+}

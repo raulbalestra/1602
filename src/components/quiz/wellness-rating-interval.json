@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_quiz_wellness_rating_intervals",
+  "info": {
+    "displayName": "wellnessRatingInterval"
+  },
+  "options": {},
+  "attributes": {
+    "from": {
+      "type": "integer",
+      "required": true,
+      "max": 10,
+      "min": 0
+    },
+    "to": {
+      "type": "integer",
+      "required": true,
+      "max": 10,
+      "min": 0
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

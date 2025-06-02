@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_pricing_plan_price_features",
+  "info": {
+    "displayName": "Features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "enumeration",
+      "enum": [
+        "hair",
+        "skin",
+        "vision",
+        "meditation",
+        "booty_challenge",
+        "abs_challenge",
+        "beautiful_skin_ebook",
+        "sofa_yoga_ebook",
+        "eye_yoga_ebook",
+        "yoga_detox_ebook",
+        "easy_keto_ebook",
+        "radiant_youth_hypnotherapy",
+        "weight_loss_hypnotherapy",
+        "gut_reset_ebook",
+        "superfoods_ebook",
+        "menstrual_ebook",
+        "gut_health_ebook"
+      ]
+    }
+  }
+}

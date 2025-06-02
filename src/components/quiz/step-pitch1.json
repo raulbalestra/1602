@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_quiz_step_pitch1s",
+  "info": {
+    "displayName": "stepPitch1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step",
+      "required": true
+    },
+    "imagesCaption": {
+      "type": "string",
+      "required": true
+    },
+    "bodyImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.body-images"
+    }
+  }
+}

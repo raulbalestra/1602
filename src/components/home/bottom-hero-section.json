@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_bottom_hero_sections",
+  "info": {
+    "displayName": "BottomHeroSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bottomHeroParts": {
+      "displayName": "BottomHeroPart",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.bottom-hero-part"
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "buttonSubtitle": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

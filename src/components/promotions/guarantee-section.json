@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_promotions_guarantee_sections",
+  "info": {
+    "displayName": "GuaranteeSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "linkText": {
+      "type": "string"
+    },
+    "getPlan": {
+      "type": "string"
+    },
+    "rated": {
+      "type": "text"
+    },
+    "ratedSubnote": {
+      "type": "text"
+    }
+  }
+}

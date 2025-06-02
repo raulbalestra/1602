@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_quiz_common_steps",
+  "info": {
+    "displayName": "commonStep",
+    "icon": "chartCircle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "property": {
+      "type": "string"
+    }
+  }
+}

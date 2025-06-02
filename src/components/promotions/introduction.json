@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_promotions_introductions",
+  "info": {
+    "displayName": "Introduction",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

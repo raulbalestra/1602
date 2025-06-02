@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_promotions_body_images",
+  "info": {
+    "displayName": "bodyImages",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "thin": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "toned": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "fat": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

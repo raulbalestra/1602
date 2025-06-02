@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_contact_us_sections",
+  "info": {
+    "displayName": "ContactUsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "contactUsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

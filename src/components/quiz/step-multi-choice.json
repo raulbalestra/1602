@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_quiz_step_multi_choices",
+  "info": {
+    "displayName": "stepMultiChoice",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step",
+      "required": true
+    },
+    "answers": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "min": 1,
+      "component": "quiz.answer-multi"
+    },
+    "answersMale": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.answer-multi"
+    }
+  }
+}

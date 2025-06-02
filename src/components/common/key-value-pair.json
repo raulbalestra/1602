@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_common_key_value_pairs",
+  "info": {
+    "displayName": "key value pair"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}

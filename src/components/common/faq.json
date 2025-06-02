@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_faqs",
+  "info": {
+    "displayName": "QnA",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answerMd": {
+      "type": "richtext"
+    }
+  }
+}

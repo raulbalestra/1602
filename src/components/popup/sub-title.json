@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_popup_sub_titles",
+  "info": {
+    "displayName": "subTitle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

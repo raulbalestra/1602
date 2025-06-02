@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_common_strings",
+  "info": {
+    "displayName": "string"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

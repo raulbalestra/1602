@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_achievement_streak_requirements",
+  "info": {
+    "displayName": "Streak Requirements"
+  },
+  "options": {},
+  "attributes": {
+    "streakType": {
+      "type": "enumeration",
+      "enum": [
+        "DAILY",
+        "WEEKLY",
+        "MONTHLY"
+      ]
+    },
+    "streakCount": {
+      "type": "integer",
+      "min": 1
+    }
+  }
+}

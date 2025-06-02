@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_workout_programs",
+  "info": {
+    "displayName": "WorkoutProgram",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

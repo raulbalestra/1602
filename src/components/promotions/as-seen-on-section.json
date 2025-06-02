@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_promotions_as_seen_on_sections",
+  "info": {
+    "displayName": "AsSeenOnSection"
+  },
+  "options": {},
+  "attributes": {
+    "asSeenOn": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

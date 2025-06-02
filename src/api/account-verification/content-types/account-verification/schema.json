@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "account_verifications",
+  "info": {
+    "singularName": "account-verification",
+    "pluralName": "account-verifications",
+    "displayName": "Account Verification"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "success": {
+      "type": "string",
+      "required": true
+    },
+    "returnHome": {
+      "type": "string",
+      "required": true
+    },
+    "homePage": {
+      "type": "string",
+      "required": true
+    },
+    "unableToVerify": {
+      "type": "string",
+      "required": true
+    },
+    "contactSupport": {
+      "type": "string"
+    }
+  }
+}

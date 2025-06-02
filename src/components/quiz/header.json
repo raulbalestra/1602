@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_quiz_headers",
+  "info": {
+    "displayName": "header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "review": {
+      "type": "string",
+      "required": true
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.header-slider"
+    }
+  }
+}

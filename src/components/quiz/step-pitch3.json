@@ -1,0 +1,79 @@
+{
+  "collectionName": "components_quiz_step_pitch3s",
+  "info": {
+    "displayName": "stepPitch3",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle1": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle2": {
+      "type": "string",
+      "required": true
+    },
+    "gain": {
+      "type": "string",
+      "required": true
+    },
+    "lose": {
+      "type": "string",
+      "required": true
+    },
+    "now": {
+      "type": "string",
+      "required": true
+    },
+    "yourGoal": {
+      "type": "string",
+      "required": true
+    },
+    "bodyChange": {
+      "type": "string",
+      "required": true
+    },
+    "and": {
+      "type": "string",
+      "required": true
+    },
+    "goal": {
+      "type": "string",
+      "required": true
+    },
+    "graphDisclaimer": {
+      "type": "string",
+      "required": true
+    },
+    "bodyChangeDescription": {
+      "type": "text"
+    },
+    "beforeString": {
+      "type": "string"
+    },
+    "afterString": {
+      "type": "string"
+    },
+    "before": {
+      "displayName": "stepPitch3LogicStrings",
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.step-pitch3-logic-strings"
+    },
+    "after": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.step-pitch3-logic-strings"
+    },
+    "bodyImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.body-images"
+    }
+  }
+}

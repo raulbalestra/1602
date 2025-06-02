@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_workouts_srcs",
+  "info": {
+    "displayName": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "srcHls": {
+      "type": "string"
+    },
+    "srcMp4": {
+      "type": "string"
+    },
+    "videoSegments": {
+      "type": "component",
+      "repeatable": true,
+      "component": "workouts.video-segment"
+    }
+  }
+}

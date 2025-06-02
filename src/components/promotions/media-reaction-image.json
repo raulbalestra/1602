@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_promotions_media_reaction_images",
+  "info": {
+    "displayName": "MediaReactionImage"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

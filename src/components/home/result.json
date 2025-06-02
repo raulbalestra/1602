@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_results",
+  "info": {
+    "displayName": "Result",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "authorName": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "authorImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

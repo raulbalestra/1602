@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_popup_sub_paragraphs",
+  "info": {
+    "displayName": "subParagraph"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

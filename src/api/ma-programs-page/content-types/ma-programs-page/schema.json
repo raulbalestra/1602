@@ -1,0 +1,82 @@
+{
+  "kind": "singleType",
+  "collectionName": "ma_programs_pages",
+  "info": {
+    "singularName": "ma-programs-page",
+    "pluralName": "ma-programs-pages",
+    "displayName": "MA Programs Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "difficultyFilter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.key-value-pair",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "typeFilter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.key-value-pair",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "goalFilter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.key-value-pair",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "difficultyTitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "lengthTitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "typeTitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "goalTitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

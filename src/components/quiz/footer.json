@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_quiz_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "informationSecure": {
+      "type": "string",
+      "required": true
+    },
+    "asSeenOn": {
+      "type": "string",
+      "required": true
+    },
+    "selectLanguage": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

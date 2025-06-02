@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_program_skill_points_per_classes",
+  "info": {
+    "displayName": "Skill Points Per Class",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "STRENGTH",
+        "FLEXIBILITY",
+        "ENDURANCE",
+        "MINDFULNESS"
+      ],
+      "required": true
+    },
+    "points": {
+      "type": "integer",
+      "min": 0,
+      "default": 0,
+      "required": true
+    }
+  }
+}

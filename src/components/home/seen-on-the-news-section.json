@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_home_seen_on_the_news_sections",
+  "info": {
+    "displayName": "SeenOnTheNewsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quoteTitle": {
+      "type": "string"
+    },
+    "heroTextBg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mainNewsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "asSeenOnImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

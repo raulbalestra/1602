@@ -1,0 +1,117 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promotions",
+  "info": {
+    "singularName": "promotion",
+    "pluralName": "promotions",
+    "displayName": "Promotions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "sections": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "promotions.as-seen-on-section",
+        "promotions.benefits-section",
+        "promotions.freebies-section",
+        "promotions.hero-section",
+        "promotions.in-the-media-section",
+        "promotions.personal-program-section",
+        "promotions.potential-savings-section",
+        "promotions.testimonial-video-section",
+        "promotions.testimonials-section",
+        "promotions.user-reviews-section",
+        "promotions.what-users-say-section",
+        "sections.paragraph-section",
+        "promotions.media-reactions-section",
+        "promotions.pitch3-from-to-section",
+        "promotions.pitch3-graph-section",
+        "sections.faq",
+        "promotions.guarantee-section",
+        "promotions.image-carousel-section",
+        "promotions.sliding-testimonials-section",
+        "promotions.product-comparison-section"
+      ]
+    },
+    "planId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "promotions.header",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "uniqueId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "hasLegacyRedirect": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false
+    },
+    "legacyRedirects": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "common.string"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "promotions.promotion-banner"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "component": "common.metadata"
+    }
+  }
+}

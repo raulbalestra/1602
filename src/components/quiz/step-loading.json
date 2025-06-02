@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_quiz_step_loadings",
+  "info": {
+    "displayName": "stepLoading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step",
+      "required": true
+    },
+    "loadingDuration": {
+      "type": "integer",
+      "required": true,
+      "default": 10,
+      "min": 0
+    },
+    "calculationsText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.string",
+      "required": true,
+      "min": 1
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.social-media-testimonial"
+    },
+    "emailCapture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.email-capture"
+    }
+  }
+}

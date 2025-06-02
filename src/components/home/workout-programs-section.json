@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_workout_programs_sections",
+  "info": {
+    "displayName": "workoutProgramsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "workout": {
+      "displayName": "WorkoutProgram",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.workout-program"
+    }
+  }
+}

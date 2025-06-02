@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_promotions_media_reactions_sections",
+  "info": {
+    "displayName": "MediaReactionsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "rated": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "genderedImages": {
+      "displayName": "MediaReactionImage",
+      "type": "component",
+      "repeatable": true,
+      "component": "promotions.media-reaction-image"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.image",
+      "required": true
+    }
+  }
+}

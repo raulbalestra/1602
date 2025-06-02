@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_program_equipment",
+  "info": {
+    "displayName": "Equipment"
+  },
+  "options": {},
+  "attributes": {
+    "equipment": {
+      "type": "enumeration",
+      "enum": [
+        "CHAIR",
+        "NONE"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_quiz_step_image_answers",
+  "info": {
+    "displayName": "stepImageAnswers",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step"
+    },
+    "answers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.answer",
+      "required": true,
+      "min": 1
+    },
+    "answersMale": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.answer"
+    }
+  }
+}

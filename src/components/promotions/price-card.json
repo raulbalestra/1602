@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_promotions_price_cards",
+  "info": {
+    "displayName": "priceCard"
+  },
+  "options": {},
+  "attributes": {
+    "flair": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "oldPrice": {
+      "type": "decimal",
+      "required": true
+    },
+    "newPrice": {
+      "type": "decimal",
+      "required": true
+    },
+    "oldPerDayPrice": {
+      "type": "decimal",
+      "required": true
+    },
+    "newPerDayPrice": {
+      "type": "decimal",
+      "required": true
+    },
+    "perDayText": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "default"
+      ],
+      "default": "default",
+      "required": true
+    }
+  }
+}

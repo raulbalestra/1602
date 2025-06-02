@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_promotions_personal_program_sections",
+  "info": {
+    "displayName": "PersonalProgramSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "includedItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

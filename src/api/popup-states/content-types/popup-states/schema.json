@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "popup_statess",
+  "info": {
+    "singularName": "popup-states",
+    "pluralName": "popup-statess",
+    "displayName": "Popup States",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "errorTitle": {
+      "type": "string",
+      "required": true
+    },
+    "errorText": {
+      "type": "string",
+      "required": true
+    },
+    "successTitle": {
+      "type": "string",
+      "required": true
+    },
+    "successText": {
+      "type": "string",
+      "required": true
+    },
+    "processTitle": {
+      "type": "string",
+      "required": true
+    },
+    "processText": {
+      "type": "string",
+      "required": true
+    },
+    "uniqueId": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

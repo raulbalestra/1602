@@ -1,0 +1,102 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exercise_videos",
+  "info": {
+    "singularName": "exercise-video",
+    "pluralName": "exercise-videos",
+    "displayName": "Exercise Video",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "videoId": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    },
+    "videoName": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female",
+        "both"
+      ],
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "durationInSeconds": {
+      "type": "integer"
+    },
+    "caloriesBurned": {
+      "required": true,
+      "type": "integer"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "videoSource": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "repetitions": {
+      "type": "string"
+    },
+    "startingPosition": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "integrationTags": {
+      "type": "string"
+    },
+    "intensity": {
+      "type": "string"
+    },
+    "equipment": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "movementPattern": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "secondaryMuscles": {
+      "type": "string"
+    },
+    "primaryMuscles": {
+      "type": "string"
+    },
+    "riskAreas": {
+      "type": "string"
+    },
+    "exerciseCategory": {
+      "type": "string"
+    }
+  }
+}

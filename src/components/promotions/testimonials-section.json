@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_promotions_testimonials_sections",
+  "info": {
+    "displayName": "TestimonialsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promotions.testimonial",
+      "required": true
+    },
+    "maleTitle": {
+      "type": "text",
+      "required": false
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_quiz_shareds",
+  "info": {
+    "displayName": "shared",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "continueButton": {
+      "type": "string",
+      "required": true
+    },
+    "warningBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.warning-box",
+      "required": true
+    },
+    "sharedPitch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.shared-pitch",
+      "required": true
+    }
+  }
+}

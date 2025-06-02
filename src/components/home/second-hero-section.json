@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_home_second_hero_sections",
+  "info": {
+    "displayName": "SecondHeroSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "buttonSubtitle": {
+      "type": "string"
+    },
+    "secondHeroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

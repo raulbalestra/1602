@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_program_primary_muscle_groups",
+  "info": {
+    "displayName": "Primary Muscle Group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "primaryMuscleGroup": {
+      "type": "enumeration",
+      "enum": [
+        "FULL_BODY",
+        "LEGS",
+        "GLUTES",
+        "CORE",
+        "CALVES",
+        "SHOULDERS",
+        "HIP_ABDUCTORS",
+        "HIP_ROTATORS",
+        "ADDUCTORS",
+        "HAMSTRINGS",
+        "QUADRICEPS"
+      ]
+    }
+  }
+}

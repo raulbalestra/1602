@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_quiz_step_single_choices",
+  "info": {
+    "displayName": "stepSingleChoice",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step",
+      "required": true
+    },
+    "answers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.answer",
+      "required": true,
+      "min": 1
+    },
+    "answersMale": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.answer"
+    }
+  }
+}

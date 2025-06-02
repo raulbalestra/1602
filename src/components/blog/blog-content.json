@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_blog_blog_contents",
+  "info": {
+    "displayName": "meta",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "socialTitle": {
+      "type": "string",
+      "required": true
+    },
+    "socialDescription": {
+      "type": "text",
+      "required": true
+    },
+    "socialImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "socialType": {
+      "type": "enumeration",
+      "enum": [
+        "website",
+        "article"
+      ],
+      "required": true,
+      "default": "website"
+    }
+  }
+}

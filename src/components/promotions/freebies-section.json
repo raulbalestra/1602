@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_promotions_freebies_sections",
+  "info": {
+    "displayName": "FreebiesSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "clientTestimonial": {
+      "type": "string",
+      "required": true
+    },
+    "getPlan": {
+      "type": "string",
+      "required": true
+    },
+    "freebies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promotions.freebie",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

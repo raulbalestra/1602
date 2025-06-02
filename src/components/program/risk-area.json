@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_program_risk_areas",
+  "info": {
+    "displayName": "Risk Area",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "riskArea": {
+      "type": "enumeration",
+      "enum": [
+        "NECK",
+        "BACK",
+        "SHOULDERS",
+        "KNEES",
+        "ANKLES",
+        "HIPS",
+        "LOWER_BACK",
+        "WRISTS"
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_quiz_step_images",
+  "info": {
+    "displayName": "stepImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "containerTitle": {
+      "type": "string"
+    },
+    "containerDescription": {
+      "type": "text"
+    },
+    "imageMale": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "containerTitleMale": {
+      "type": "string"
+    },
+    "containerDescriptionMale": {
+      "type": "text"
+    }
+  }
+}

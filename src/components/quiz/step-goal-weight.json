@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_quiz_step_goal_weights",
+  "info": {
+    "displayName": "stepGoalWeight",
+    "icon": "train"
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "helper": {
+      "type": "string"
+    },
+    "underweightTitle": {
+      "type": "string"
+    },
+    "underweightDescription": {
+      "type": "text"
+    },
+    "gainWeightTitle": {
+      "type": "string"
+    },
+    "gainWeightDescription": {
+      "type": "text"
+    },
+    "elseTitle": {
+      "type": "string"
+    },
+    "elseDescription": {
+      "type": "text"
+    }
+  }
+}

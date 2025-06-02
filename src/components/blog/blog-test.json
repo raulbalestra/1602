@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blog_blog_tests",
+  "info": {
+    "displayName": "richText",
+    "icon": "underline",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "richText": {
+      "type": "blocks"
+    }
+  }
+}

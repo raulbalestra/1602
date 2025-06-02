@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_quiz_answers",
+  "info": {
+    "displayName": "answer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "emoji": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subtext": {
+      "type": "string"
+    },
+    "skipNextStep": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

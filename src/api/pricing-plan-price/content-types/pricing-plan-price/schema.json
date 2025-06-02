@@ -1,0 +1,120 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_plan_prices",
+  "info": {
+    "singularName": "pricing-plan-price",
+    "pluralName": "pricing-plan-prices",
+    "displayName": "Pricing Plan Price",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "priceDiscounted": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "one-time",
+        "recurring"
+      ],
+      "default": "recurring",
+      "required": true
+    },
+    "priceDays": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    },
+    "priceFull": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "pricePerDayFull": {
+      "type": "decimal"
+    },
+    "pricePerDayDiscounted": {
+      "type": "decimal"
+    },
+    "displayOrder": {
+      "type": "integer",
+      "min": 1,
+      "required": true
+    },
+    "priceDifference": {
+      "type": "decimal"
+    },
+    "konnektiveCampaignId": {
+      "type": "integer",
+      "required": true
+    },
+    "konnektiveProductId": {
+      "type": "integer",
+      "required": true
+    },
+    "features": {
+      "displayName": "Features",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-plan-price.features"
+    },
+    "flair": {
+      "type": "string",
+      "required": true
+    },
+    "pricingPlan": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::pricing-plan.pricing-plan",
+      "inversedBy": "PricingPlanPrices"
+    },
+    "priceId": {
+      "type": "integer",
+      "required": true,
+      "min": 868,
+      "unique": true
+    },
+    "perDayText": {
+      "type": "string",
+      "default": "per day",
+      "required": true
+    },
+    "currency": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::currency.currency",
+      "inversedBy": "pricing_plan_prices"
+    },
+    "priceToCents": {
+      "type": "integer"
+    },
+    "isDefault": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "lifetimeValue": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "isYearlyUpgrade": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

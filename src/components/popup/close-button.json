@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_popup_close_buttons",
+  "info": {
+    "displayName": "closeButton"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

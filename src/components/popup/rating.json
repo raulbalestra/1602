@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_popup_ratings",
+  "info": {
+    "displayName": "rating"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

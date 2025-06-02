@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_program_secondary_muscle_groups",
+  "info": {
+    "displayName": "Secondary Muscle Group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "secondaryMuscleGroup": {
+      "type": "enumeration",
+      "enum": [
+        "CORE",
+        "LEGS",
+        "ARMS",
+        "CALVES",
+        "HIP_ABDUCTORS",
+        "SHOULDERS",
+        "FEET",
+        "LOWER_BACK",
+        "GLUTES",
+        "HAMSTRINGS",
+        "ADDUCTORS",
+        "HIP_FLEXORS"
+      ]
+    }
+  }
+}

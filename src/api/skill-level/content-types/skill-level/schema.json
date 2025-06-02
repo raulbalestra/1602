@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skill_levels",
+  "info": {
+    "singularName": "skill-level",
+    "pluralName": "skill-levels",
+    "displayName": "Skill Level",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "STRENGTH",
+        "FLEXIBILITY",
+        "ENDURANCE",
+        "MINDFULNESS"
+      ]
+    },
+    "pointsToComplete": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    },
+    "level": {
+      "type": "integer",
+      "min": 1,
+      "required": true
+    }
+  }
+}

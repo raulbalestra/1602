@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_promotions_reviews",
+  "info": {
+    "displayName": "review",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "profileIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "profileAlt": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "review": {
+      "type": "text",
+      "required": true
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "platformIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "platformAlt": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

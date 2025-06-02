@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_faqs",
+  "info": {
+    "displayName": "faq",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.faq"
+    },
+    "title": {
+      "type": "string"
+    },
+    "getPlan": {
+      "type": "string"
+    },
+    "rated": {
+      "type": "string"
+    }
+  }
+}

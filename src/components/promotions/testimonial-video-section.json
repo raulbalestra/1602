@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_promotions_testimonial_video_sections",
+  "info": {
+    "displayName": "TestimonialVideoSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "rated": {
+      "type": "string",
+      "required": true
+    },
+    "videoTitle": {
+      "type": "string",
+      "required": true
+    },
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "getPlan": {
+      "type": "string",
+      "required": true
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.string",
+      "required": true
+    }
+  }
+}

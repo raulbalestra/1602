@@ -1,0 +1,117 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programs",
+  "info": {
+    "singularName": "program",
+    "pluralName": "programs",
+    "displayName": "Program",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "classes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::class.class",
+      "mappedBy": "program"
+    },
+    "imageSource": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "goal": {
+      "displayName": "Goals",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.goals",
+      "required": true
+    },
+    "type": {
+      "displayName": "Program Type",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.program-type",
+      "required": true
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "ENTRY",
+        "BEGINNER",
+        "INTERMEDIATE",
+        "ADVANCED",
+        "ALL"
+      ],
+      "required": true
+    },
+    "length": {
+      "displayName": "Program Length",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.program-length"
+    },
+    "caloriesPerSecondMultiplier": {
+      "type": "decimal",
+      "default": 0.085,
+      "min": 0,
+      "required": true
+    },
+    "skillPointsPerClass": {
+      "displayName": "Skill Points Per Class",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.skill-points-per-class",
+      "required": true
+    },
+    "primaryMuscleGroup": {
+      "displayName": "Primary Muscle Group",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.primary-muscle-group"
+    },
+    "secondaryMuscleGroup": {
+      "displayName": "Secondary Muscle Group",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.secondary-muscle-group"
+    },
+    "intensity": {
+      "displayName": "Intensity",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.intensity"
+    },
+    "movementPattern": {
+      "displayName": "Movement Pattern",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.movement-pattern"
+    },
+    "riskArea": {
+      "displayName": "Risk Area",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.risk-area"
+    },
+    "equipment": {
+      "displayName": "Equipment",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.equipment"
+    }
+  }
+}

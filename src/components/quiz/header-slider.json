@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_quiz_header_sliders",
+  "info": {
+    "displayName": "HeaderSlider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text1": {
+      "type": "string",
+      "required": true
+    },
+    "text2": {
+      "type": "string",
+      "required": true
+    },
+    "text3": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_configs",
+  "info": {
+    "singularName": "product-config",
+    "pluralName": "product-configs",
+    "displayName": "Product Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "configId": {
+      "type": "uid",
+      "required": true
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "wallpilates"
+      ]
+    }
+  }
+}

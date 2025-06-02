@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_promotions_pitch3_graph_sections",
+  "info": {
+    "displayName": "Pitch3GraphSection"
+  },
+  "options": {},
+  "attributes": {
+    "bodyChange": {
+      "type": "string",
+      "required": true
+    },
+    "gain": {
+      "type": "string",
+      "required": true
+    },
+    "lose": {
+      "type": "string",
+      "required": true
+    },
+    "now": {
+      "type": "string",
+      "required": true
+    },
+    "and": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle1": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle2": {
+      "type": "string",
+      "required": true
+    },
+    "goal": {
+      "type": "string",
+      "required": true
+    },
+    "graphDisclaimer": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

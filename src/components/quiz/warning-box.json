@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_quiz_warning_boxes",
+  "info": {
+    "displayName": "warningBox",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "underweightTitle": {
+      "type": "string",
+      "required": true
+    },
+    "underweightDescription": {
+      "type": "text",
+      "required": true
+    },
+    "normalTitle": {
+      "type": "string",
+      "required": true
+    },
+    "normalDescription": {
+      "type": "text",
+      "required": true
+    },
+    "overweightTitle": {
+      "type": "string",
+      "required": true
+    },
+    "overweightDescription": {
+      "type": "text",
+      "required": true
+    },
+    "obeseTitle": {
+      "type": "string",
+      "required": true
+    },
+    "obeseDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

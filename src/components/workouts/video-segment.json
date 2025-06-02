@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_workouts_video_segments",
+  "info": {
+    "displayName": "videoSegment",
+    "icon": "scissors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "segmentLenght": {
+      "type": "integer"
+    },
+    "segmentTitle": {
+      "type": "string"
+    }
+  }
+}

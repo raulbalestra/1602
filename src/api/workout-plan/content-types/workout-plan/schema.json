@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workout_plans",
+  "info": {
+    "singularName": "workout-plan",
+    "pluralName": "workout-plans",
+    "displayName": "Workout Plan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "_softDeletedAt": {
+      "type": "datetime",
+      "configurable": false,
+      "writable": false,
+      "visible": false,
+      "private": true
+    },
+    "_softDeletedById": {
+      "type": "integer",
+      "configurable": false,
+      "writable": false,
+      "visible": false,
+      "private": true
+    },
+    "_softDeletedByType": {
+      "type": "string",
+      "configurable": false,
+      "writable": false,
+      "visible": false,
+      "private": true
+    },
+    "identifier": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "workouts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::workout.workout",
+      "mappedBy": "workoutPlan"
+    }
+  }
+}

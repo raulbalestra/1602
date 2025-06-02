@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blog_rich_text_mds",
+  "info": {
+    "displayName": "richTextMd",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "richTextMd": {
+      "type": "richtext"
+    }
+  }
+}

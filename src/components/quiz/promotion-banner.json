@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_quiz_promotion_banners",
+  "info": {
+    "displayName": "promotionBanner",
+    "icon": "message"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "countdown": {
+      "type": "integer",
+      "required": true,
+      "default": 900
+    }
+  }
+}

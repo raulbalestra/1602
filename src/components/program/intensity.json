@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_program_intensities",
+  "info": {
+    "displayName": "Intensity",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "intensity": {
+      "type": "enumeration",
+      "enum": [
+        "MEDIUM",
+        "LOW_MEDIUM",
+        "MEDIUM_HIGH"
+      ]
+    }
+  }
+}

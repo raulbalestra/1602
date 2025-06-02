@@ -1,0 +1,69 @@
+{
+  "collectionName": "components_quiz_step_pitch2s",
+  "info": {
+    "displayName": "stepPitch2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle1": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle2": {
+      "type": "string",
+      "required": true
+    },
+    "women": {
+      "type": "string",
+      "required": true
+    },
+    "men": {
+      "type": "string",
+      "required": true
+    },
+    "people": {
+      "type": "string",
+      "required": true
+    },
+    "welnessHeader": {
+      "type": "string",
+      "required": true
+    },
+    "bodyMassText": {
+      "type": "string",
+      "required": true
+    },
+    "underweight": {
+      "type": "string",
+      "required": true
+    },
+    "normal": {
+      "type": "string",
+      "required": true
+    },
+    "overweight": {
+      "type": "string",
+      "required": true
+    },
+    "obese": {
+      "type": "string",
+      "required": true
+    },
+    "continueTitle": {
+      "type": "string"
+    },
+    "wellnessRating": {
+      "displayName": "wellnessRating",
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.wellness-rating",
+      "required": false
+    },
+    "bodyImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.body-images"
+    }
+  }
+}

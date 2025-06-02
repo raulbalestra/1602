@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_program_program_lengths",
+  "info": {
+    "displayName": "Program Length",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "roundedLengthInMinutes": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    }
+  }
+}

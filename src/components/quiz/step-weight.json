@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_quiz_step_weights",
+  "info": {
+    "displayName": "stepWeight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.common-step",
+      "required": true
+    },
+    "helper": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_program_goals",
+  "info": {
+    "displayName": "Goals",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "goal": {
+      "type": "enumeration",
+      "enum": [
+        "FLEXIBILITY",
+        "STRENGTH",
+        "ENDURANCE",
+        "MINDFULNESS",
+        "WEIGHT_LOSS",
+        "ALL"
+      ]
+    }
+  }
+}

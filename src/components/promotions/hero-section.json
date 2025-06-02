@@ -1,0 +1,86 @@
+{
+  "collectionName": "components_promotions_hero_sections",
+  "info": {
+    "displayName": "HeroSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroImageMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "rated": {
+      "type": "string",
+      "required": true
+    },
+    "personalPlan": {
+      "type": "string",
+      "required": true
+    },
+    "reduceFat": {
+      "type": "string",
+      "required": true
+    },
+    "flexibility": {
+      "type": "string",
+      "required": true
+    },
+    "attractiveness": {
+      "type": "string",
+      "required": true
+    },
+    "foxReview": {
+      "type": "string",
+      "required": true
+    },
+    "agreement": {
+      "type": "string",
+      "required": true
+    },
+    "getPlan": {
+      "type": "string",
+      "required": true
+    },
+    "safeCheckout": {
+      "type": "string",
+      "required": true
+    },
+    "autoRenewal": {
+      "type": "string",
+      "required": true
+    },
+    "priceCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promotions.price-card",
+      "required": true
+    },
+    "loseWeight": {
+      "type": "string",
+      "required": true
+    },
+    "personalPlanLoss": {
+      "type": "string",
+      "default": "Lose {{loss}} with your personal plan",
+      "required": true
+    },
+    "discount": {
+      "type": "component",
+      "repeatable": false,
+      "component": "promotions.discount"
+    }
+  }
+}

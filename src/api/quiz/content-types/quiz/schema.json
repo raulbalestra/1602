@@ -1,0 +1,134 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quizzes",
+  "info": {
+    "singularName": "quiz",
+    "pluralName": "quizzes",
+    "displayName": "Quiz",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "steps": {
+      "type": "dynamiczone",
+      "components": [
+        "quiz.step-gender",
+        "quiz.step-multi-choice",
+        "quiz.step-single-choice",
+        "quiz.step-age",
+        "quiz.step-date",
+        "quiz.step-height",
+        "quiz.step-name",
+        "quiz.step-pitch1",
+        "quiz.step-weight",
+        "quiz.step-pitch2",
+        "quiz.step-pitch3",
+        "quiz.step-loading",
+        "quiz.step-image-answers",
+        "quiz.step-goal-weight",
+        "quiz.step-slider",
+        "quiz.step-image"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "min": 1
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.header",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quiz.footer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "shared": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "quiz.shared",
+      "required": true
+    },
+    "redirectTo": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": false
+    },
+    "program": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::program.program"
+    },
+    "promotionBanner": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "quiz.promotion-banner"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blog.blog-content"
+    },
+    "uniqueId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "common.metadata",
+      "required": true
+    }
+  }
+}
